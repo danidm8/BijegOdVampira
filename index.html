@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Slučajno ste se našli u kući vampira. <span class="badge">Pobjegnite</span> prije nego vas otkrije!</h1>
+  <h1 class="glow-title">Slučajno ste se našli u kući vampira. <span class="badge">Pobjegnite</span> prije nego vas otkrije!</h1>
   
     <a href="Web Pics\Untitled55_20251023165514.png">
       <img src="Web Pics\vampy.webp" width="370" height="500">
@@ -80,9 +80,44 @@
   <li>Upamti: E = mc<sup>2</sup> i H<sub>2</sub>O + češnjak = <strong>spas</strong>.</li>
   <li>Ne trči bez plana.</li>
   </ol>
+
+    <form class="last-words-form">
+    <fieldset>
+      <legend>Prijava posljednjih riječi</legend>
+
+      <label for="ime">Ime umrlog:</label>
+      <input type="text" id="ime" name="ime" placeholder="Upiši svoje ime..." required>
+
+      <label for="mjesto">Gdje si posljednji put viđen?</label>
+      <select id="mjesto" name="mjesto">
+        <option value="dnevni">Dnevni boravak</option>
+        <option value="knjiznica">Knjižnica</option>
+        <option value="kupaonica">Kupaonica</option>
+        <option value="soba">Soba</option>
+        <option value="vrt">Vrt</option>
+        <option value="kapija">Kapija</option>
+      </select>
+
+      <label for="poruka">Tvoje posljednje riječi:</label>
+      <input list="poruke" id="poruka" name="poruka" placeholder="Upiši ili odaberi...">
+      <datalist id="poruke">
+        <option value="On je iza mene...">
+        <option value="Nema bijega...">
+        <option value="Krv... svuda krv...">
+      </datalist>
+
+      <button type="submit">Zabilježi posljednje riječi</button>
+    </fieldset>
+  </form>
+
+  <p class="end-message">🩸 Nitko nije preživio. Vampir je ponovno gladan... 🩸</p>
 </body>
 
 </html>
+
+
+
+
 
 
 
