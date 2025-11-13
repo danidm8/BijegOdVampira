@@ -100,7 +100,7 @@ img:hover {
   text-align: left;
   margin: 0 16px 8px 16px;
   font-size: 18px;
-} 
+}  
 
 .last-words-form {
   background-color: #0a0000;
@@ -177,3 +177,42 @@ img:hover {
   75% { transform: translateX(1px); text-shadow: 0 0 14px crimson; }
 }
 
+table.blood-table {
+  width: 90%;                 
+  margin: 20px auto 40px;     
+  border-collapse: collapse;  
+  border: 3px solid darkred;  
+  border-radius: 12px;        
+  overflow: hidden;           
+  background: #0a0000;
+}
+
+thead th, tbody td {
+  border: 2px solid darkred;  
+  padding: 10px;              
+  height: 44px;               
+  text-align: left;
+  color: darkred;
+}
+
+thead tr:first-child th {
+  text-align: center;
+  font-size: 22px;
+  background: black;
+}
+
+thead tr:nth-child(2) th {    
+  background: #140000;
+}
+
+tbody tr:nth-child(even) td {
+  background: rgba(220, 20, 60, 0.08);
+}
+
+#tabela-tragova tbody td:nth-child(3) {
+  font-weight: bold;
+}
+
+table.blood-table tbody tr:hover td {
+  background: rgba(220, 20, 60, 0.15);
+}
