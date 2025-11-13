@@ -100,7 +100,7 @@ img:hover {
   text-align: left;
   margin: 0 16px 8px 16px;
   font-size: 18px;
-}  /* ← Ova zatvorena vitica je nedostajala */
+} 
 
 .last-words-form {
   background-color: #0a0000;
@@ -176,3 +176,4 @@ img:hover {
   50% { transform: translateX(-2px) rotate(-.5deg); text-shadow: 0 0 20px crimson; }
   75% { transform: translateX(1px); text-shadow: 0 0 14px crimson; }
 }
+
